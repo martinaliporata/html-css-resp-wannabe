@@ -134,10 +134,42 @@ img {
 
 /* dai 768px in giù */
 @media screen and (max-width:768px) {
-
+    
 }
 
 /* dai 480px in giù */
 @media screen and (max-width:480px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
     
 }
