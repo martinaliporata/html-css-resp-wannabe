@@ -190,7 +190,7 @@ img {
 
     .why-us .col img{
         margin-bottom: 2rem;
-        width: 50%;
+        width: 100%;
     }
 
     .col {
@@ -278,7 +278,7 @@ img {
     }
 
     .card p {
-        padding: 0 4rem;
+        padding: 0 1rem;
         margin-bottom: 2rem;
     }
 
